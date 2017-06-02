@@ -1,0 +1,205 @@
+/*头部内容*/
+#header{
+    width: 100%;
+    height: 600px;
+    background: url(../img/Tfilmbg.jpg) no-repeat !important;
+    background-position: center center !important;
+    background-size: 100% !important;
+    position: relative;
+    background-attachment: fixed;
+}
+/*内容部分*/
+/*电影动漫推荐*/
+.sport-title{
+    position: relative;
+    display: flex;
+    align-items: center;/*垂直居中显示*/
+    width: 1140px;
+    margin: 30px auto;
+    justify-content: center;/*水平居中显示*/
+}
+.sport-title-line1{
+    width: 12%;
+    display: inline-block;
+    border-top: 1px solid #777;
+}
+.sport-title-line2{
+    width: 12%;
+    display: inline-block;
+    border-bottom: 1px solid #777;
+}
+h1{
+    margin: 0 50px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+.film{
+    width: 1170px;
+    margin: 0 auto;
+}
+.film-wrap{
+    position: relative;
+    width: 289px;
+    height: 289px;
+    display: inline-block;
+    overflow: hidden;
+}
+.film-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.film-wrap-info{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    line-height: 289px;
+    text-align: center;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+}
+.film-wrap-info p{
+    color: rgba(22, 255, 65, 0.66);
+    font-size: 30px;
+    font-weight: bold;
+}
+.film-wrap:hover .film-wrap-info{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+/*小说推荐*/
+.fiction{
+    width: 1170px;
+    margin: 0 auto;
+}
+.fiction-wrap{
+    position: relative;
+    width: 289px;
+    height: 289px;
+    display: inline-block;
+    overflow: hidden;
+}
+.fiction-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.fiction-wrap-info{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    line-height: 289px;
+    text-align: center;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+}
+.fiction-wrap-info p{
+    color: rgba(22, 255, 65, 0.66);
+    font-size: 30px;
+    font-weight: bold;
+}
+.fiction-wrap:hover .fiction-wrap-info{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+/*电视剧推荐*/
+.teleplay{
+    width: 1170px;
+    margin: 0 auto;
+}
+.teleplay-wrap{
+    position: relative;
+    width: 289px;
+    height: 289px;
+    display: inline-block;
+    overflow: hidden;
+}
+.teleplay-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.teleplay-wrap-info{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    line-height: 289px;
+    text-align: center;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+}
+.teleplay-wrap-info p{
+    color: rgba(22, 255, 65, 0.66);
+    font-size: 30px;
+    font-weight: bold;
+}
+.teleplay-wrap:hover .teleplay-wrap-info{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+/*影视论坛*/
+.film-forum{
+    width: 100%;
+}
+.film-forum-wrap{
+    position: relative;
+    width: 1170px;
+    margin: 25px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+}
+.film-forum-wrap h2{
+    display: inline-block;
+    font-weight: bold;
+}
+.film-forum-wrap h2:hover{
+    color: rgba(80, 225, 255, 0.46);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.film-forum-wrap p{
+    width: 90%;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    /*超出一行显示省略号*/
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    word-break: break-all;
+    color: #666666;
+}
+.film-forum-wrap button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+    color: #666666;
+    background-color: white;
+}
+.film-forum-wrap button:hover{
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+.film-forum-wrap ul{
+    display: inline-block;
+    float: right;
+    padding-right: 95px;
+}
+.film-forum-wrap ul li{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    /*float: right;*/
+}
+.film-forum-wrap a{
+    color: #666666;
+}

@@ -1,0 +1,339 @@
+*,ul,li,h3{
+    margin:0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(21, 21, 21, 0.61);
+}
+/*头部内容*/
+#header{
+    width: 100%;
+    height: 600px;
+    background: url(../img/Ttravel02.jpg) no-repeat !important;
+    background-position: right center!important;
+    background-size: 132% !important;
+    position: relative;
+}
+/*主体内容*/
+/*景美人美心情美*/
+.contener{
+    width: 100%;
+}
+#beauty{
+    width: 1170px;
+    margin: auto;
+}
+.sport-title{
+    position: relative;
+    display: flex;
+    align-items: center;/*垂直居中显示*/
+    width: 1140px;
+    margin: 30px auto;
+    justify-content: center;/*水平居中显示*/
+}
+.sport-title-line1{
+    width: 12%;
+    display: inline-block;
+    border-top: 1px solid #777;
+}
+.sport-title-line2{
+    width: 12%;
+    display: inline-block;
+    border-bottom: 1px solid #777;
+}
+ h1{
+    margin: 0 50px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+.beauty-wrap{
+    position: relative;
+    width: 235px;
+    height: 340px;
+    display: inline-block;
+    margin: 10px 27px;
+}
+.beauty-wrap .img{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+.beauty-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.beauty-wrap .cover{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 70%;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+    /*transition: 0.5s;*/
+}
+.beauty-wrap:hover .cover{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    /*transform: scale(1.05);*/
+}
+.beauty-wrap .info{
+    width: 100%;
+    height: 30%;
+    font-size: 13px;
+    color: #c9c9c9;
+}
+.beauty-wrap .info a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*页数*/
+.pages{
+    width: 1170px;
+    height: 24px;
+    margin:20px auto;
+    text-align: center;
+    /*display: inline-block;*/
+    /*设置了display: inline-block后margin:0 auto就不起作用。*/
+    /*如果没有对行内的块级设置maigin 值，那么它的margin值就为0.所以设置margin:0 auto;就是为值为0的分配，所以没效果。*/
+}
+.pages span{
+    font-weight: bold;
+    background-color: #50A8E6;
+    border-color: #50A8E6;
+    color: white;
+}
+.pages a, .pages span {
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 0 1px;
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+}
+.pages a{
+    color:#58A0D3;
+    text-decoration: none;
+}
+.pages li{
+    list-style: none;
+    color:#58A0D3;
+    display: inline-block;
+}
+/*鼠标移上页数的效果*/
+.pages a:hover{
+    border: 1px solid #58A0D3;
+}
+/*旅游景点心推荐*/
+#scenic-recommend{
+    width: 100%;
+}
+.scenery{
+    width: 1170px;
+    height: 400px;
+    margin: auto;
+}
+/*第一张图片*/
+.scenery-first{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.scenery-first img{
+    width: 100%;
+    height: 100%;
+}
+.scenery-cover1{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+    /*transition: 0.5s;*/
+}
+.scenery-first:hover .scenery-cover1{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    /*transform: scale(1.05);*/
+}
+.scenery-first a{
+    color: white;
+    font-weight: bold;
+}
+.scenery-first a p{
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    color: white;
+}
+.scenery-first a span{
+    position: absolute;
+    top: 90%;
+    right: 3%;
+}
+/*第二张图片*/
+.scenery-second{
+    position: relative;
+    width: 32%;
+    height: 195px;
+    float: right;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.scenery-second img{
+    width: 100%;
+    height: 100%;
+}
+.scenery-cover2{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+    /*transition: 0.5s;*/
+}
+.scenery-second:hover .scenery-cover2{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    /*transform: scale(1.05);*/
+}
+.scenery-second a{
+    color: white;
+    font-weight: bold;
+}
+.scenery-second a p{
+    position: absolute;
+    top: 78%;
+    left: 3%;
+    color: white;
+}
+.scenery-second a span{
+    position: absolute;
+    top: 85%;
+    right: 5%;
+}
+/*第三张图片*/
+.scenery-third{
+    position: relative;
+    width: 32%;
+    height: 195px;
+    float: right;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.scenery-third img{
+    width: 100%;
+    height: 100%;
+}
+.scenery-cover3{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+    /*transition: 0.5s;*/
+}
+.scenery-third:hover .scenery-cover3{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    /*transform: scale(1.05);*/
+}
+.scenery-third a{
+    color: white;
+    font-weight: bold;
+}
+.scenery-third a p{
+    position: absolute;
+    top: 78%;
+    left: 3%;
+    color: white;
+}
+.scenery-third a span{
+    position: absolute;
+    top: 85%;
+    right: 5%;
+}
+/*旅游论坛*/
+#travel{
+    width: 100%;
+}
+.trval-wrap{
+    width: 1170px;
+    margin: 25px auto;
+}
+.travel-forum{
+    position: relative;
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+}
+.travel-forum-left{
+    width: 20%;
+    height: 220px;
+    display: inline-block;
+    overflow: hidden;
+}
+.travel-forum-left img{
+    width: 100%;
+    height: 100%;
+}
+.travel-forum-right{
+    width: 77%;
+    display: inline-block;
+    margin-left: 31px;
+    color: #9d9d9d;
+}
+.travel-forum-right h3{
+    display: inline-block;
+    font-weight: bold;
+}
+.travel-forum-right h3:hover{
+    color: rgba(80, 225, 255, 0.46);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.travel-forum-right span{
+    width: 90%;
+    display: inline-block;
+    padding: 20px 0;
+}
+.travel-forum-right p{
+    width: 95%;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    /*超出一行显示省略号*/
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    word-break: break-all;
+}
+.travel-forum-right button{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+    background-color: white;
+}
+.travel-forum-right button:hover{
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+/*脚部内容*/

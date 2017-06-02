@@ -1,0 +1,144 @@
+/*==========================================头部================================================*/
+#header{
+	width: 100%;
+	height: 600px;
+	background: url(../img/O_bg.jpg) no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.header_container{
+	position: absolute !important;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+}
+.nav_container{
+	width: 100%;
+	height: 89px;
+	line-height: 89px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+/*导航栏*/
+.header_nav{
+	width: 1140px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*LOGO*/
+.header_logo{
+	float: left;
+}
+.header_logo>a{
+	color: #fff;
+	background-color: transparent;
+	font-size: 22px;
+	font-weight: 700;
+}
+/*导航条*/
+.header_bar{
+	float: right;
+}
+.h_ul>li{
+	float: left;
+	background: transparent;
+}
+.h_ul li a{
+	padding: 0.75em 1em !important;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.h_ul li a:hover{
+	color: #fff;
+}
+.first_a{
+	color: #fff!important;
+}
+
+/*标语*/
+.header_title{
+	top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top: -80px;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+}
+.header_title>h2{
+	color: #fff;
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 300 !important;
+}
+.action{
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.logo_btn{
+	margin-top: 30px;
+}
+.go_btn{
+	background: #66D37E;
+    color: #fff;
+    border: 2px solid transparent !important;
+   	padding: 5px 20px;
+    opacity: .9;
+    font-size: 18px !important;
+    line-height: 1.33333;
+    border-radius: 6px;
+    letter-spacing:5px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: normal !important;
+}
+.go_btn:hover{
+	border: 2px solid #fff !important;
+    background: transparent !important;
+}
+/*脚部*/
+#footer{
+	color: #fcfcfc;
+    background: #66D37E;
+}
+.footer_container{
+	background: #66D37E;
+    padding: 60px 0 40px;
+}
+.foot{
+	width: 1170px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.foot_p a{
+	font-size: 26px;
+	color: rgba(255, 255, 255, 0.5);
+	padding: 4px 10px;
+}
+.foot_p a:hover{
+	color: #fff;
+}
+.copy{
+	color: white;
+    font-size: 14px;
+}
+.icon-play{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:3px solid #eee;
+	font-size: 48px;
+	color: lightgreen;
+	padding: 30px;
+}
+.icon-redo2,.icon-typing,.icon-thumbs-up{
+	font-size: 24px;
+}

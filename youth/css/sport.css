@@ -1,0 +1,258 @@
+/*头部内容*/
+#header{
+    width: 100%;
+    height: 600px;
+    background: url(../img/Tsport02.jpg) no-repeat !important;
+    background-position: center center !important;
+    background-size: 100% !important;
+    position: relative;
+}
+/*主体内容*/
+.contenter{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+/*昨日运动回顾*/
+.yesterday{
+    width: 1170px;
+    margin: 0 auto;
+}
+.sport-title{
+    position: relative;
+    display: flex;
+    align-items: center;/*垂直居中显示*/
+    width: 1140px;
+    margin: 30px auto;
+    justify-content: center;/*水平居中显示*/
+}
+.sport-title-line1{
+    width: 12%;
+    display: inline-block;
+    border-top: 1px solid #777;
+}
+.sport-title-line2{
+    width: 12%;
+    display: inline-block;
+    border-bottom: 1px solid #777;
+}
+ h1{
+    margin: 0 50px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+.yesterday-wrap{
+    position: relative;
+    width: 289px;
+    height: 355px;
+    overflow: hidden;
+    display: inline-block;
+}
+.yesterday-wrap img{
+    width: 100%;
+    height: 75%;
+}
+.color-cover{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 75%;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+}
+.yesterday-wrap:hover .color-cover{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+.yesterday-wrap .info{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+}
+.yesterday-wrap .info p{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(22, 255, 65, 0.66);
+}
+.yesterday-wrap .info .dianzan{
+    width: 100%;
+}
+.yesterday-wrap .info .dianzan img{
+    width: 25px;
+    height: 25px;
+}
+.yesterday-wrap .info .dianzan img:hover{
+    cursor: pointer;
+}
+.yesterday-wrap .info .dianzan span{
+    padding-left: 25px;
+    vertical-align: top;
+}
+/*今日飒爽英姿*/
+.today{
+    width: 1170px;
+    margin: 0 auto;
+}
+.today-wrap{
+    position: relative;
+    width: 289px;
+    height: 289px;
+    display: inline-block;
+    overflow: hidden;
+}
+.today-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.today-wrap-info{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    line-height: 289px;
+    text-align: center;
+    background: rgba(21, 21, 21, 0.61);
+    display: none;
+}
+.today-wrap-info p{
+    color: rgba(22, 255, 65, 0.66);
+    font-size: 30px;
+    font-weight: bold;
+}
+.today-wrap:hover .today-wrap-info{
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+}
+/*运动论坛*/
+.sport-forum{
+    width: 1170px;
+    margin: auto;
+}
+.sport-forum-wrap{
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.sport-forum-left{
+    width: 8%;
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    background-color: #fff;
+}
+.sport-forum-left img{
+    width: 100%;
+}
+.sport-forum-right{
+    width: 91%;
+    display: inline-block;
+}
+.right01 p,.right01 a{
+    font-weight: normal;
+    color: #444444;
+}
+.right01 a{
+    margin-left: 30px;
+    color: #9d9d9d;
+}
+.right02 button{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+}
+.right02 button:hover{
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+.right02 .button-img01{
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    overflow: hidden;
+}
+.right02 .button-img02{
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    overflow: hidden;
+}
+.right02 .button-img03{
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    overflow: hidden;
+}
+.right02 button span{
+    height: 18px;
+    line-height: 18px;
+    vertical-align: top;
+    color: #9d9d9d;
+    font-weight: bold;
+}
+.right03{
+    margin-top: 20px;
+}
+.right03 a{
+    color: #444444;
+}
+.shareimg01{
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.shareimg02{
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.shareimg03{
+    display: inline-block;
+    width: 17px;
+    height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.right04 h3{
+    margin: 20px 0 0 0;
+    font-weight: normal;
+}
+.right04 input{
+    width: 660px;
+    height: 50px;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+}
+.right04 button{
+    width: 70px;
+    height: 30px;
+    margin-left: 125px;
+    background-color: white;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+    color: #444444;
+}
+.right04 button:hover{
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
