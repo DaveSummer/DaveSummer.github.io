@@ -1,0 +1,114 @@
+.main_wrap{
+	padding-top: 123px;
+	padding-bottom: 128px;
+	overflow: hidden;
+}
+.tours_item{
+	width: 360px;
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.fl{
+	margin-left: 0px;
+}
+.fr{
+	margin-right: 0px;
+}
+.txt1{
+	font-size: 16px;
+    line-height: 19px;
+    color: #263555;
+}
+.tour_txt{
+	display: inline-block;
+}
+.tour_con .txt1{
+	margin-bottom: 13px;
+}
+.fleft{
+	float: left;
+    margin-right: 25px;
+    margin-bottom: 0px;
+}
+.price{
+	margin-bottom: 14px;
+}
+.price_span{
+	padding-top: 4px;
+    display: block;
+    text-transform: uppercase;
+    color: #38afe5;
+    font-size: 16px;
+}
+.price+.price{
+	margin-bottom: 40px;
+}
+.t_clear{
+	height: 47px;
+	float: none;
+	clear: both;
+}
+.tour_txt .btn{
+	float: left !important;
+}
+.form1{
+	overflow: hidden;
+}
+.form1 span{
+	margin-bottom: 9px;
+    display: block;
+}
+.form_div{
+	width: 260px;
+	position: relative;
+    height: 25px;
+    float: left;
+    border: 1px solid #dedbdb;
+    background: #fcfafa;
+}
+.form_span{
+	font-size: 13px;
+    float: none;
+    position: absolute;
+    white-space: nowrap;
+    width: 169px;
+    height: 25px;
+    line-height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 3px;
+    padding: 4px 9px 3px;
+    background: #fcfafa;
+    color: #868f8f !important;
+    box-sizing: border-box;
+}
+.arrowToBottom{
+	display: block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 28px !important;
+    height: 25px !important;
+    padding: 0;
+    border: 1px solid #e0dddd;
+    background: url(../img/select.png) no-repeat center center;
+}
+.arrowToBottom:hover{
+	background-color: #38AFE5;
+    border-color: #38AFE5;
+}
+.form1 .btn{
+	margin-top: 74px;
+    margin-bottom: 13px;
+    float: left;
+}
+.opera{
+	margin-bottom: 2px !important;
+}
+.form2 span{
+	margin-bottom: 8px;
+}
+.form2 .form_div{
+	margin-bottom: 30px;
+}

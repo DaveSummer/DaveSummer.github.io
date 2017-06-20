@@ -1,0 +1,85 @@
+.main_wrap{
+	padding-top: 123px;
+	padding-bottom: 128px;
+	overflow: hidden;
+}
+.lists .count{
+	text-align: center;
+    margin-top: 3px;
+    margin-right: 25px;
+    float: left;
+    border-radius: 500px;
+    width: 31px;
+    line-height: 30px;
+    height: 31px;
+    color: #fff;
+    border: 1px solid #4f93b2;
+    background-color: #38afe5;
+}
+.lists .txt1{
+	margin-bottom: 9px;
+}
+.extra{
+	overflow: hidden;
+}
+.lists li+li{
+	margin-top: 35px;
+}
+div.txt1 a{
+	color: #263555;
+}
+div.txt1 a:hover{
+	color: #38afe5;
+}
+.step{
+	border-bottom: 1px solid #dedbdb;
+    padding-top: 54px;
+}
+.oh3{
+	padding-top: 49px;
+	padding-bottom: 1px;
+}
+.txt4{
+	margin-bottom: 19px;
+}
+.lists2{
+    width: 34.5%;
+    padding-top: 2px;
+    float: left;
+}
+.lists2 li{
+	background: url(../img/marker1.png) 0 5px no-repeat;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263555;
+    padding-left: 23px;
+}
+.lists2 li a{
+	color: #263555;
+}
+.lists2 li a:hover{
+	color: #38afe5;
+}
+.lists2 li+li{
+	margin-top: 21px;
+}
+blockquote{
+	margin-top: -37px;
+}
+blockquote p{
+	background-color: #fcfafa;
+    padding: 24px 22px 26px;
+    margin-bottom: 0 !important;
+    border: 1px solid #dedbdb;
+}
+.bq_bot{
+	margin-top: -1px;
+    padding-top: 65px;
+    position: relative;
+    padding-left: 34px;
+    background: url(../img/bq_bot_bg.png) 113px 0 no-repeat;
+}
+.bq_bot .txt1{
+	margin-bottom: 20px;
+    padding-left: 14px;
+}

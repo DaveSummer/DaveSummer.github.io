@@ -1,0 +1,79 @@
+.main_wrap{
+	padding-top: 123px;
+	padding-bottom: 128px;
+	overflow: hidden;
+}
+iframe{
+	width: 550px;
+    height: 414px;
+    max-width: 100%;
+}
+figure{
+	float: left;
+	width: 550px;
+	display: block;
+	box-sizing: border-box;
+	margin-right: 26px;
+    padding-top: 2px;
+}
+address{
+	font-style: normal;
+}
+address dt{
+	margin-bottom: 19px;
+}
+address dd span{
+	min-width: 95px;
+    display: inline-block;
+    text-align: left;
+}
+.link-1{
+	color: #fa7e7e;
+}
+.link-1:hover{
+	color: #38AFE5;
+}
+#form input{
+    color: #263555;
+    border: 1px solid #d4d0d0;
+    padding: 4px 10px 6px;
+    width: 100%;
+    background-color: #fcfafa;
+    text-transform: uppercase;
+    height: 28px;
+    float: left;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#form label{
+	display: block;
+    min-height: 45px;
+    width: 100%;
+}
+#form textarea{
+	color: #263555;
+    height: 233px;
+    text-transform: uppercase;
+    overflow: auto;
+    background-color: #fcfafa;
+    border: 1px solid #d4d0d0;
+    padding: 15px 10px 6px;
+    width: 100%;
+    position: relative;
+    resize: none;
+    box-sizing: border-box;
+    float: left;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.btns{
+	padding-top: 22px;
+    text-align: right;
+}
+.btns a.btn{
+	margin: 0 !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    margin-left: 18px !important;
+}

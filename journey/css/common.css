@@ -1,0 +1,277 @@
+/*字体引入*/
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body{
+	font: 13px/19px Arial, Helvetica, sans-serif;
+    color: #666565;
+    position: relative;
+	background: url(../img/bg_body.jpg) center 0 no-repeat #d6bba0;
+}
+
+
+/*===================================公共部分==================================*/
+.container{
+	width: 1152px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container_item{
+	width: 168px;
+	margin-left: 12px;
+    margin-right: 12px;
+    float: left;
+}
+.wrap{
+	width: 1128px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+a{
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #263555;
+}
+.clear{
+	clear: both;
+}
+
+.btn{
+	padding: 4px 16px 4px;
+	display: block;
+	float: right;
+	box-shadow: none;
+	color: #000;
+	background-color: #fbf6f8;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #b1aaaa;
+    line-height: 15px;
+}
+.btn:hover{
+	border-color: #476788;
+    color: #fff;
+    background-color: #38AFE5;
+}
+
+#main{
+	width: 1270px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.c_left{
+	width: 840px;
+	margin-right: 12px;
+	margin-left: 12px;
+	float: left;
+}
+.c_right{
+	width: 264px;
+	margin-left: 12px;
+	margin-right: 12px;
+	float: left;
+}
+.c_left>h3,.c_right>h3{
+	font-size: 38px;
+    line-height: 44px;
+    color: #263555;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.txt1{
+	font-size: 16px;
+    line-height: 19px;
+    color: #263555;
+}
+.left_img{
+	float: left;
+    margin-right: 25px;
+    margin-bottom: 0px;
+}
+p.txt1{
+	margin-bottom: 18px;
+}
+p.txt1 a{
+	color: #263555;
+}
+p.txt1 a:hover{
+	color: #38afe5;
+}
+p.txt2{
+	margin-bottom: 19px;
+}
+/*=================================头部=======================================*/
+#header{
+	width: 100%;
+	padding-bottom: 105px;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	top: 31px;
+	margin-left: -95px;
+}
+/*导航栏*/
+.nav_list{
+	text-align: center;
+	padding-top: 97px;
+	padding-left: 120px;
+}
+.nav_list>li{
+	float: left;
+	margin-left: 58px;
+	position: relative;
+}
+.nav_list>li:nth-child(1){
+	margin-left: 0px;
+}
+.nav_list>li:nth-child(3){
+	margin-right: 227px;
+}
+.nav_list>li>a{
+	color: #fff;
+	text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    line-height: 28px;
+    position: relative;
+	z-index: 999; 
+	transition: .9s;
+}
+.nav_list>li>a:hover{
+	color: #263555;
+}
+.nav_list .current>a{
+	color: #263555;
+}
+
+/*二级菜单*/
+.second_list{
+	width: 66px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -33px;
+	padding-top: 7px;
+    border-radius: 3px;
+    padding-bottom: 4px;
+    background-color: #ffffff;
+    z-index: 9999;
+    overflow: hidden;
+    display: none;
+}
+.second_list>li{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.second_list>li>a{
+	text-transform: uppercase;
+    font: 20px/20px 'Pathway Gothic One', sans-serif;
+    color: #6b7488;
+}
+.second_list>li>a:hover{
+    color: #38afe5;
+}
+.secondNav:hover .second_list{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+/*==========================================脚部=======================================*/
+#footer{
+	padding: 25px 0;
+    color: #6b6868;
+}
+.socials{
+	text-align: center;
+    margin-bottom: 21px;
+}
+.socials a{
+	margin: 0 5px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: url(../img/socials.png) 0 0 no-repeat;
+}
+.socials a:hover{
+	opacity: .5;
+}
+.socials a:nth-child(2){
+	background-position: -60px 0;
+}
+.socials a:nth-child(3){
+	background-position: -122px 0;
+}
+.socials a:nth-child(4){
+	background-position: right 0;
+}
+.copy{
+	text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+#toTop{
+	width: 36px;
+    height: 37px;
+    position: fixed;
+    bottom: 30px;
+    right: 50%;
+    margin-right: -620px !important;
+    overflow: hidden;
+    text-indent: -999px;
+    z-index: 999;
+    background: url(../img/totop.png) no-repeat left top;
+    transition: 0s ease;
+    display: none;
+}
+
+/*友情链接*/
+.contact{
+	background-color: #30455b;
+    color: #ffffff;
+    font-size: 12px;
+    padding-bottom: 34px;
+}
+.contact_list{
+	padding-top: 42px;
+}
+.contact_list li a{
+	font: 18px/18px 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: inherit;
+}
+.contact a:hover{
+	color: #38afe5;
+}
+.contact_list li:nth-child(2){
+	margin-top: 10px;
+}
+.container .container_item:first-child{
+	padding-left: 192px;
+}
+.contact_h4{
+	font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 33px;
+    margin-bottom: 8px;
+}
+.link{
+	color: inherit;
+}
